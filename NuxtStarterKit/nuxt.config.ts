@@ -82,7 +82,7 @@ export default defineNuxtConfig({
             ? [
               {
                 find: 'vue3-vite-vuetify-lib-starter-kit',
-                replacement: path.resolve(__dirname, '../../vue3-vite-vuetify-lib-starter-kit/src')
+                replacement: path.resolve(__dirname, '../../../vue3-vite-vuetify-lib-starter-kit/src')
               }
             ]
             : []
